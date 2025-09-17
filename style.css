@@ -23,16 +23,18 @@ body {
   text-align: center;
 
   max-height: 85vh;
+  height: auto;
   max-width: 80vh;
+  
   padding: 10px;
   border: 3px solid;
   border-radius: 15px;
-  backdrop-filter: blur(5px); /* efeito de desfoque no fundo */
+  backdrop-filter: blur(5px);
 }
 
 img {
   width: 100%;
-  max-width: 300px; /* ou outro valor fixo */
+  max-width: 50vh;
   height: auto;
 
   border-radius: 10px;
@@ -43,12 +45,16 @@ h1{
   font-size: 5vh;
 }
 
+p{
+  font-size: 2vh;
+}
+
 @media (width < 500px) {
   h1{
     font-size: 3vh;
   }
 
-  p{
-    
+  img{
+    max-width: 20vh;
   }
 }
